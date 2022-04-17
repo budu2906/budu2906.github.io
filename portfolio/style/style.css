@@ -1,0 +1,76 @@
+body {
+  background: radial-gradient(#606c88 0%, #3f4c6b 100%);
+}
+#welcome-section {
+  height: 100vh;
+
+  color: black;
+}
+#navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+#container_height {
+  margin-top: 60px;
+  width: 100%;
+  background-image: url(../img/matt-icons_text-x-generic-script.svg);
+}
+
+.txt {
+  position: relative;
+  letter-spacing: 2px;
+  left: 11em;
+  writing-mode: vertical-lr;
+  font-family: "my soul";
+}
+.git:before {
+  position: relative;
+  right: 5px;
+  font-family: "icomoon";
+  content: "\f09b";
+}
+.facebook:before {
+  position: relative;
+  right: 5px;
+  font-family: "icomoon";
+  content: "\f230";
+}
+
+.gmail:before {
+  position: relative;
+  right: 5px;
+  font-family: "icomoon";
+  content: "\e900";
+  color: #d14836;
+}
+.tel:before {
+  position: relative;
+  right: 5px;
+  font-family: "icomoon";
+  content: "\e959";
+}
+#profile-link {
+  margin: 15px;
+}
+.project-title {
+  position: relative;
+  margin: 5em;
+}
+.card img {
+  border-radius: 50%;
+  width: 80%;
+  margin: auto;
+}
+
+.card {
+  background: radial-gradient(#606c88 0%, #3f4c6b 100%);
+}
+.card:hover {
+  background: #483a86;
+  transition-duration: 2s;
+}
+#projects h2 {
+  font-family: "my soul";
+}
