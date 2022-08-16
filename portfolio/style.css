@@ -6,6 +6,10 @@
     font-family: 'teko';
     background-color: #000;
 }
+img{
+    max-width: 100%;
+    height: auto;
+}
 a {
     background-color: transparent;
     text-decoration: none;
@@ -82,9 +86,11 @@ nav{
 }
 #tsl-btn{
     margin-bottom: 50px;
-    display: block;
+    display: flex;
+ 
+   
+    justify-content: center;
     margin-top: 50px;
-    transform: translateX(25rem);
 }
 #tsl-btn span{
 font-size: 15px;
