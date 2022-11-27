@@ -1,41 +1,41 @@
 @font-face {
-  font-family: "icomoon";
-  src: url("./portfolio/fonts/icomoon.eot?f5v20m");
-  src: url("./portfolio/fonts/icomoon.eot?f5v20m#iefix") format("embedded-opentype"),
-    url("./portfolio/fonts/icomoon.ttf?f5v20m") format("truetype"),
-    url("./portfolio/fonts/icomoon.woff?f5v20m") format("woff"),
-    url("./portfolio/fonts/icomoon.svg?f5v20m#icomoon") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: block;
-}
-
-[class^="icon-"],
-[class*=" icon-"] {
-  /* use !important to prevent issues with browser extensions that change fonts */
-  font-family: "icomoon" !important;
-  speak: never;
-  font-style: normal;
-  font-weight: normal;
-  font-variant: normal;
-  text-transform: none;
-  line-height: 1;
-
-  /* Better Font Rendering =========== */
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-.icon-gmail:before {
-  content: "\e900";
-  color: #d14836;
-}
-.icon-github:before {
-  content: "\f09b";
-}
-.icon-facebook-official:before {
-  content: "\f230";
-}
-.icon-mobile2:before {
-  content: "\e959";
-}
+    font-family: "icomoon";
+    src: url("../fonts/icomoon.eot?f5v20m");
+    src: url("../fonts/icomoon.eot?f5v20m#iefix") format("embedded-opentype"),
+      url("../fonts/icomoon.ttf?f5v20m") format("truetype"),
+      url("../fonts/icomoon.woff?f5v20m") format("woff"),
+      url("../fonts/icomoon.svg?f5v20m#icomoon") format("svg");
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"],
+  [class*=" icon-"] {
+    /* use !important to prevent issues with browser extensions that change fonts */
+    font-family: "icomoon" !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    /* Better Font Rendering =========== */
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-gmail:before {
+    content: "\e900";
+    color: #d14836;
+  }
+  .icon-github:before {
+    content: "\f09b";
+  }
+  .icon-facebook-official:before {
+    content: "\f230";
+  }
+  .icon-mobile2:before {
+    content: "\e959";
+  }
