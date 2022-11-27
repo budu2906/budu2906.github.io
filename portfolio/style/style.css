@@ -25,31 +25,24 @@ body {
   writing-mode: vertical-lr;
   font-family: "my soul";
 }
-.git:before {
+.git i {
   position: relative;
   right: 5px;
-  font-family: "icomoon";
-  content: "\f09b";
 }
-.facebook:before {
+.facebook i {
   position: relative;
   right: 5px;
-  font-family: "icomoon";
-  content: "\f230";
+
 }
 
-.gmail:before {
+.gmail i {
   position: relative;
   right: 5px;
-  font-family: "icomoon";
-  content: "\e900";
-  color: #d14836;
+  color: orangered;
 }
-.tel:before {
+.tel i {
   position: relative;
   right: 5px;
-  font-family: "icomoon";
-  content: "\e959";
 }
 #profile-link {
   margin: 15px;
