@@ -1,167 +1,97 @@
+body {
+  background: radial-gradient(#606c88 0%, #3f4c6b 100%);
+}
+#welcome-section {
+  height: 100vh;
 
-*{
-    margin: 0;
-    padding: 0;
-    color: white;
-    font-family: 'teko';
-    background-color: #000;
+  color: black;
 }
-img{
-    max-width: 100%;
-    height: auto;
+#navbar {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
 }
-a {
-    background-color: transparent;
-    text-decoration: none;
-    border: none;
- }
- 
-nav ul{
-    display: flex;
-    list-style: none;
-    font-size: 25;
-}
-#logo span{
-    font-size: 36px;
+#container_height {
+  margin-top: 60px;
+  width: 100%;
+  background-image: url(../img/matt-icons_text-x-generic-script.svg);
 }
 
-#call-number{
-    margin-left: 15px;
+.txt {
+  position: relative;
+  letter-spacing: 2px;
+  left: 11em;
+  writing-mode: vertical-lr;
+  font-family: "my soul";
 }
-nav{
+.git:before {
+  position: relative;
+  right: 5px;
+  font-family: "icomoon";
+  content: "\f09b";
+}
+.facebook:before {
+  position: relative;
+  right: 5px;
+  font-family: "icomoon";
+  content: "\f230";
+}
+
+.gmail:before {
+  position: relative;
+  right: 5px;
+  font-family: "icomoon";
+  content: "\e900";
+  color: #d14836;
+}
+.tel:before {
+  position: relative;
+  right: 5px;
+  font-family: "icomoon";
+  content: "\e959";
+}
+#profile-link {
+  margin: 15px;
+}
+.project-title {
+  position: relative;
+  margin: 5em;
+}
+.card img {
+  border-radius: 50%;
+  width: 80%;
+  margin: auto;
+}
+.cards{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.card {
+  width: 30%;
+  height: auto;
+  border-radius:20px;
+  background: radial-gradient(#606c88 0%, #3f4c6b 100%);
+}
+.card:hover {
+  background: #483a86;
+  transition-duration: 2s;
+}
+#projects h2 {
+  font-family: "my soul";
+}
+
+@media screen and (max-width:768px){
+  .cards{
+    
     display: flex;
+    flex-direction:column;
     align-items: center;
-}
-#menu span{
-    background-color: white;
-    display: block;
-    width: 60px;
-    margin-top: 4px;
-    height: 2px;
-    border-radius: 50%;
-}
-#menu span:nth-child(2){
-    width: 50px;
-}
-#menu span:nth-child(3){
-    width: 40px;
-}
-#menu{
-    justify-content: flex-end;
-    display: flex;
-    width: 60px;
-    flex-wrap: wrap;
-    margin-bottom: 6px;
-    
-}
-#rect{
-    margin-left: auto;
-}
-#contact{
-    margin-left: auto;
-}
-#header-content{
+  }
+  .card{
     margin-top: 35px;
-    text-align: center;
-}
-
-#merits{
-    font-style: italic;
-}
-#merits span{
-    margin-right: 27px;
-}
-#header-block span{
-    font-size: 40px;
-}
-#header-block span:nth-child(3){
-    font-size: 25px;
-}
-#header-block{
-    margin-top: 100px;
-}
-#slider img{
-    width: 714px;
-    height: 315px;
-}
-#tsl-btn{
-    margin-bottom: 50px;
-    display: flex;
- 
-   
-    justify-content: center;
-    margin-top: 50px;
-}
-#tsl-btn span{
-font-size: 15px;
-
-}
-#tsl-btn a {
-    position: relative;
-    padding: 20px 50px;
-    display: block;
-    text-decoration: none;
-    text-transform: uppercase;
-    width: 300px;
-    overflow: hidden;
-    border-radius: 40px;
+    width: 100%;
+    height: auto;
   }
-  
-  #tsl-btn a span {
-    position: relative;
-    color: #fff;
-    font-size: 20px;
-    font-family: Arial;
-    letter-spacing: 8px;
-    z-index: 1;
-  }
-  
-  #tsl-btn a .liquid {
-    position: absolute;
-    top: -80px;
-    left: 0;
-    width: 300px;
-    height: 200px;
-    background: #4973ff;
-    box-shadow: inset 0 0 50px rgba(0, 0, 0, .5);
-    transition: .5s;
-  }
-  
-  #tsl-btn a .liquid::after,
-  #tsl-btn a .liquid::before {
-    content: '';
-    width: 200%;
-    height: 200%;
-    position: absolute;
-    top: 0;
-    left: 50%;
-    transform: translate(-50%, -75%);
-    background: #000;
-  }
-  
-  #tsl-btn a .liquid::before {
-    
-    border-radius: 45%;
-    background: rgba(20, 20, 20, 1);
-    animation: animate 5s linear infinite;
-  }
-  
-  #tsl-btn a .liquid::after {
-    
-    border-radius: 40%;
-    background: rgba(20, 20, 20, .5);
-    animation: animate 10s linear infinite;
-  }
-  
-  a:hover .liquid{
-    top: -120px;
-  }
-  
-  @keyframes animate {
-    0% {
-      transform: translate(-50%, -75%) rotate(0deg);
-    }
-    100% {
-      transform: translate(-50%, -75%) rotate(360deg);
-    }
-  }
+}
