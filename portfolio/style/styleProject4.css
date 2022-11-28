@@ -702,9 +702,6 @@ font-size: 25px;
     .gear-img{
         position: static;
     }
-
-}
-@media screen and (max-width:300px){
     .offer-top-right{
         display: none;
     }
@@ -713,10 +710,11 @@ font-size: 25px;
         flex-direction: column;
         align-items: center;
     }
-    .offer-main h4{
-        font-size: 15px !important;
-    }
-    .offer-main h2{
+        .offer-main h2{
         text-align: center;
     }
+        .offer-main h4{
+        font-size: 15px !important;
+    }
+
 }
