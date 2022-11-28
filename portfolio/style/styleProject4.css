@@ -41,23 +41,17 @@ a{
     justify-content: flex-end;
     align-items: center;
 }
-.twitter:before{
-    font-family: 'icomoon';
-    content: "\ea96";
+.twitter i{
     margin-left: 15px;
     font-size: 25px;
     color: #FBFBFB;
 }
-.instagram:before{
-    font-family: 'icomoon';
-    content: "\ea92";
+.instagram i{
     margin-left: 15px;
     font-size: 25px;
     color: #FBFBFB;
 }
-.facebook:before{
-    font-family: 'icomoon';
-    content: "\ea91";
+.facebook i{
     margin-left: 15px;
     font-size: 25px;
     color: #FBFBFB;
@@ -108,16 +102,12 @@ a{
     align-items: center;
     margin-left: 15px;
 }
-.nav-profile:before{
-    font-family: "icomoon";
-    content: "\e971";
+.nav-profile i{
     margin-right: 15px;
     font-size: 25px;
 }
-.nav-icon:after{
+.nav-icon i{
     margin-left: 15px;
-    font-family:"icomoon";
-    content: "\e93a";
     font-size: 25px;
 }
 .nav-icon{
@@ -309,10 +299,8 @@ margin-left: 60px;
     display: flex;
     justify-content: flex-end;
 }
-.offer-bot ul li::after{
+.offer-bot ul li i{
     
-    font-family: "icomoon";
-    content: "\e9d9";
     color: #B14725;
 
 }
@@ -563,21 +551,18 @@ flex-direction: column;
     display: flex;
     justify-content: space-around;
 }
-.footer-twitter:before{
-font-family: "icomoon";
-content: "\ea96";
+.footer-twitter i{
+
 color: white;
 font-size: 25px;
 }
-.footer-facebook:before{
-    font-family: "icomoon";
-    content: "\ea91";
+.footer-facebook i{
+
     color: white;
     font-size: 25px;
 }
-.footer-instagram:before{
-    font-family: "icomoon";
-    content: "\ea92";
+.footer-instagram i{
+
     font-size: 25px;
 }
 #burger img{
