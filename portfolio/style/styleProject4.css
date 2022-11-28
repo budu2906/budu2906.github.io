@@ -573,7 +573,8 @@ font-size: 25px;
 @media screen and (max-width: 992px){
     #burger{
         display: block;
-        
+        position: absolute;
+        right: 10px;
     }
     .nav ul{
         display: none;
