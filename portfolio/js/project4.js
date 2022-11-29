@@ -76,5 +76,7 @@ let burgerFn = () =>{
 mainUl.style.backgroundColor = "#873319";
 mainUl.style.flexDirection ="column";
 mainUl.style.alignItems = "center";
+mainUl.style.borderBottomLeftRadius ="25px";
+mainUl.style.borderBottomRightRadius = "25px";
 
 burgerFn();
