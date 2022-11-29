@@ -199,8 +199,9 @@ a{
 }
 .footer-form{
     margin-bottom: 100px;
-    margin-left: 500px;
+    margin-left: 300px;
     height: 600px;
+    width: auto;
     display: flex !important;
     flex-direction: column !important;
     justify-content: flex-end;
@@ -217,14 +218,30 @@ a{
 
 .footer-contact{
     margin-top: 300px;
+
     position: absolute;
     margin-right: 600px;
     height: 500px;
     width: 500px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     background-color: #f9a5a9;
+}
+.footer-contact a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 1s;
+}
+.footer-contact a p,
+.footer-contact a h3{
+    transition: 1s;
+}
+.footer-contact a:hover p,
+.footer-contact a:hover h3{
+    color: #4345E7;
+    transition: 1s;
 }
 .footer-form h2{
     color: #4345E7;
@@ -250,30 +267,39 @@ a{
     height: 400px;
     width: 75px;
     
-}   
+}
+#education,
+#surname,   
 #name,
-#email,
 #textarea{
    border: none;
    border-bottom: 2px black solid;
 }
-@media screen and (max-width: 1200px){
-    
-}
-@media screen and (max-width: 992px){
-    .footer-form{
-        margin: 0;
-        padding: 0;
-    width: 80%;
-    }
-    .footer-contact{
-        margin: 0;
-        height: 300px;
-        padding: 0;
-        width: 50%;
-        margin-top: 900px;
-    }
 
+
+@media screen and (max-width: 992px){
+    .resp{
+        display: none;
+    }
+    .footer-top{
+        align-items: space-around;
+        position: static;
+        flex-direction: column-reverse;
+      }
+      .footer-form{
+          margin: 25px 0px;
+          padding: 0;
+          display: flex;
+          position: static;
+          width: 100vw;
+      }
+      .footer-contact{
+          margin: 25px 0px;
+          padding: 0;
+          display: flex;
+          position: static;
+          width: 100vw;
+      }
 }
 @media screen and (max-width: 768px){
 .header{
@@ -291,6 +317,7 @@ align-items: center;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 25px;
 }
 .business-left{
     margin-bottom: 50px;
@@ -325,19 +352,5 @@ align-items: center;
     
     
 }
-.footer-form{
-    margin: 0;
-    padding: 0;
-width: 80%;
-}
-.footer-contact{
-    margin: 0;
-    height: 300px;
-    padding: 0;
-    width: 50%;
-    margin-top: 900px;
-}
-}
-@media screen and (max-width: 576px){
 
 }
