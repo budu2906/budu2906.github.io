@@ -412,7 +412,7 @@ margin-left: 60px;
 .by-category{
     position: relative;
     background-color: #8C351A;
-    height: 980px;
+    padding: 5vh 0px;
 
 }
 .by-category h2{
