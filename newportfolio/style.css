@@ -232,11 +232,26 @@ h1 i {
 .project-text ul{
 display: flex;
 justify-content: center;
-    
+
     
 }
+.project-libraries li{
+    padding: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0,.1);
+}
 .project-text li{
+   
     margin-left: 1rem;
+}
+.project-text li a{
+    display: flex;
+    align-items: center;
+    gap: .5rem
+}
+.project-text li i{
+    font-size: 35px;
+    padding: 0;
+    margin: 0;
 }
 .project-img {
     height: 27rem;
