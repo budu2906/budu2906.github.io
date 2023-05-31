@@ -350,6 +350,9 @@ h1 i {
 }
 
 @media screen and (max-width: 400px){
+    h1{
+        font-size: 30px;
+    }
     .about-right{
         text-align: center;
     }
