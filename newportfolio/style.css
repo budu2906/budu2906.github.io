@@ -205,7 +205,7 @@ h1 i {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    
+    padding: 2rem;
     height: 30rem;
     background-color: white;
     margin-top: 8rem;
@@ -218,6 +218,9 @@ h1 i {
     padding: 0.8rem 0;
     color: #767676;
 }
+.projects h3{
+    text-transform: uppercase;
+}
 .projects ul{
     padding: 1rem 0;
     font-weight: bold;
@@ -229,13 +232,20 @@ h1 i {
     justify-content: space-around;
     
 }
-.project-text ul{
-display: flex;
-justify-content: center;
+.project-text ul:nth-child(4){
+   display: flex;
+   justify-content: center;
+   gap: 0.5rem;
+}
 
+.project-libraries{
     
+    display: flex;
+    justify-content:space-around;
+        gap: 1rem;
 }
 .project-libraries li{
+    
     padding: 1rem;
     box-shadow: 0 0 10px rgba(0, 0, 0,.1);
 }
@@ -337,12 +347,34 @@ justify-content: center;
 0%{color: white;}
 100%{color:black;}
 }
-@media screen and (max-width: 500px){
+
+@media screen and (max-width: 400px){
+    .about-right{
+        text-align: center;
+    }
+    .projects{
+        height: 100vh;
+    }
     .project-text p{
-    font-size: 13px;
-        max-width: 30ch;
+        font-size: 12px;
+        max-width: 25ch;
+    }
+    .project-libraries {
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+    }
+    .project-libraries li{
+        padding: 0.5rem;
+    }
+
+    .project-text ul:nth-child(4){
+        flex-direction: column;
+        align-items: center;
+        gap:.7rem;
+       
     }
 }
+
 @media screen and (max-width: 992px){
     #nav-ul{
         display:none !important;
@@ -382,6 +414,7 @@ justify-content: center;
     }
 
     .projects{
+        height: 75vh;
         flex-direction: column;
        gap: 2rem;
        padding: 1rem 0.5rem;
@@ -408,8 +441,7 @@ justify-content: center;
         justify-content: center;
         align-items: center;
     }
-    .project-img {
-        height: 450px;
-    }
+
  
 }
+
