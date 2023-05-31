@@ -220,6 +220,7 @@ h1 i {
 }
 .projects h3{
     text-transform: uppercase;
+    max-width: 15ch;
 }
 .projects ul{
     padding: 1rem 0;
