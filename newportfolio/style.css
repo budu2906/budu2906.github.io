@@ -131,11 +131,13 @@ h1 i {
 
 .description-bot{
     display: flex;
+    justify-content: center;
     align-items: center;
 }
 .description-bot h5{
     border-right: 3px solid;
-    padding-right: 15px;
+  display: flex;
+  justify-content: center;
     
 }
 .description-bot ul{
@@ -203,6 +205,7 @@ h1 i {
 }
 .projects{
     display: flex;
+    gap:1rem;
     justify-content: space-around;
     align-items: center;
     padding: 2rem;
@@ -220,7 +223,6 @@ h1 i {
 }
 .projects h3{
     text-transform: uppercase;
-    max-width: 15ch;
 }
 .projects ul{
     padding: 1rem 0;
@@ -349,35 +351,6 @@ h1 i {
 100%{color:black;}
 }
 
-@media screen and (max-width: 400px){
-    h1{
-        font-size: 30px;
-    }
-    .about-right{
-        text-align: center;
-    }
-    .projects{
-        height: 100vh;
-    }
-    .project-text p{
-        font-size: 12px;
-        max-width: 25ch;
-    }
-    .project-libraries {
-       display: grid;
-       grid-template-columns: 1fr 1fr;
-    }
-    .project-libraries li{
-        padding: 0.5rem;
-    }
-
-    .project-text ul:nth-child(4){
-        flex-direction: column;
-        align-items: center;
-        gap:.7rem;
-       
-    }
-}
 
 @media screen and (max-width: 992px){
     #nav-ul{
@@ -449,3 +422,34 @@ h1 i {
  
 }
 
+
+
+@media screen and (max-width: 400px){
+    .about-right{
+        text-align: center;
+    }
+    .projects{
+        height: 100vh;
+    }
+    .projects h3{
+        text-align: center;
+    } 
+    .project-text p{
+        font-size: 12px;
+        max-width: 25ch;
+    }
+    .project-libraries {
+       display: grid;
+       grid-template-columns: 1fr 1fr;
+    }
+    .project-libraries li{
+        padding: 0.5rem;
+    }
+
+    .project-text ul:nth-child(4){
+        flex-direction: column;
+        align-items: center;
+        gap:.7rem;
+       
+    }
+}
