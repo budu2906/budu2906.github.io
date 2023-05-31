@@ -337,7 +337,12 @@ justify-content: center;
 0%{color: white;}
 100%{color:black;}
 }
-
+@media screen and (max-width: 500px){
+    .project-text p{
+    font-size: 13px;
+        max-width: 30ch;
+    }
+}
 @media screen and (max-width: 992px){
     #nav-ul{
         display:none !important;
@@ -408,4 +413,3 @@ justify-content: center;
     }
  
 }
-
