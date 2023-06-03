@@ -403,6 +403,9 @@ max-width: 35ch;
 }
 
 @media screen and (max-width:576px){
+       h1{
+        font-size: 25px;
+    }
     .header-call{
         max-width: 7rem;
     }
