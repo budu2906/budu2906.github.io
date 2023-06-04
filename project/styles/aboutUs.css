@@ -499,6 +499,20 @@ h1{
 
 
 @media screen and (max-width:576px){
+    @media screen and (max-width:576px){
+    .header-call{
+        max-width: 7rem;
+    }
+    #burger {
+        width: 2rem ;
+    }
+    .remote-img-top,
+    .remote-img-bot{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+    
     .function-top{
         display: flex;
         flex-direction: column;
