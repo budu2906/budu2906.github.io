@@ -1,0 +1,867 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Raleway';
+  font-style: normal;
+}
+body {
+  width: 1440px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.header {
+  margin-top: 26px;
+  width: 100%;
+  max-width: 100%;
+  vertical-align: middle;
+}
+.container {
+  width: 1170px;
+  max-width: 100%;
+  margin: 0 auto;
+}
+.wrap-header {
+  width: 100%;
+  height: 47px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav {
+  margin-right: 16px;
+}
+.nav-list {
+  width: 788px;
+  display: flex;
+  justify-content: space-between;
+}
+.nav-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: #353A5A;
+  list-style-type: none;
+}
+.nav-link__active {
+  color: #FA9F42;
+}
+.contacts__tel,
+.contacts__city {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: #353A5A;
+  margin-bottom: 10px;
+}
+.contacts__city {
+  margin-bottom: 0;
+}
+.btn {
+  width: 184px;
+  height: 47px;
+  left: 1121px;
+  top: 26px;
+  background: #FA9F42;
+  border-radius: 0px 20px;
+  border: none;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 100%;
+  text-align: center;
+  color: #FDFDFD;
+}
+.main {
+  width: 100%;
+}
+.how-to-proceed {
+  padding-top: 82px;
+}
+.h2 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 100%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #353A5A;
+  margin-bottom: 65px;
+}
+.how-to-proceed__text,
+.spo__text,
+.for-higher__text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #353A5A;
+  margin-bottom: 39px;
+}
+.wrap-admission {
+  display: flex;
+  margin-bottom: 55px;
+}
+.spo {
+  margin-right: 79px;
+}
+.spo__h2,
+.for-higher__h2 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 100%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #1740C7;
+  margin-bottom: 20px;
+}
+.spo__text,
+.for-higher__text {
+  margin-bottom: 13px;
+}
+.how-to-proceed__frame {
+  display: flex;
+  width: 919.1px;
+  max-width: 100%;
+  margin-bottom: 90px;
+}
+.frame-img {
+  width: 51px;
+  height: 51px;
+  border: 1px solid #FFFFFF;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+  margin-right: 74px;
+}
+.frame-text {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 129.5%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #353A5A;
+}
+
+.section-instruction {
+  height: 1456.02px;
+  background: #1740C7;
+  margin: 0 auto;
+  padding: 62px 0 80px;
+}
+.section-instruction__h2 {
+  color: #FFFFFF;
+  margin-bottom: 65px;
+}
+.step {
+  padding: 27px 50px;
+  width: 970px;
+  max-width: 100%;
+  background: #FFFFFF;
+  border-radius: 0px 20px;
+  margin: 0 auto 15px;
+}
+.step3 {
+  margin-bottom: 23px;
+}
+.step-name {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 124%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #1740C7;
+  mix-blend-mode: normal;
+  margin-bottom: 22px;
+}
+.step-h3 {
+  font-weight: 700;
+  font-size: 23px;
+  line-height: 108%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #353A5A;
+  mix-blend-mode: normal;
+  margin-bottom: 12px;
+}
+.step-info {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 140%;
+  color: #353A5A;
+  mix-blend-mode: normal;
+}
+.step-info-ege {
+  margin-bottom: 20px;
+}
+.list-in-text {
+  margin-bottom: 25px;
+  margin-left: 25px;
+}
+
+.section-distance-learning {
+  padding: 93px 0 57px;
+}
+.section-distance-learning__h2 {
+  margin-bottom: 77px;
+}
+.frames {
+  display: flex;
+  justify-content: space-between;
+}
+.wrap-frames1 {
+  width: 470px;
+  max-width: 100%;
+}
+.wrap-frames2 {
+  width: 570px;
+  max-width: 100%;
+}
+.frame {
+  margin-bottom: 60px;
+}
+
+.num-frame {
+  margin-bottom: 31px;
+}
+.materials__h3{
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #1740C7;
+  margin-bottom: 14px;
+}
+.materials__info {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #353A5A;
+}
+
+.section-commission {
+  background: #1740C7;
+
+}
+.commission-container {
+  width: 1440px;
+  max-width: 100%;
+}
+.wrap-comission {
+  width: 1170px;
+  max-width: 100%;
+  margin: 0 auto;
+  height: 213.96px;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 46px;
+}
+.section-commission__wrap {
+  width: 670px;
+  max-width: 100%;
+}
+.section-commission__h2,
+.commission-text {
+  color: #FFFFFF;
+}
+
+.commission-text {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 140%;
+  margin-bottom: 20px;
+}
+.commission-tel {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 100%;
+  color: #FDFDFD;
+}
+.section-when-to-pay{
+  padding-top: 120px;
+}
+.section-when-to-pay__h2 {
+  margin-bottom: 34px;
+}
+.section-when-to-pay__text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #353A5A;
+  margin-bottom: 54px;
+}
+.text1 {
+  width: 770px;
+  max-width: 100%;
+}
+.ways-text {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #1740C7;
+  margin-bottom: 16px;
+}
+
+.wrap-ways1,
+.wrap-ways2 {
+  width: 100%;
+  max-width: 100%;
+  display: flex;
+}
+.wrap-ways2 {
+  margin-bottom: 26px;
+}
+.way {
+  width: 270px;
+  max-width: 100%;
+  border: 1px solid #1740C7;
+  border-radius: 0px 15px;
+  padding: 20px 0 10px;
+  text-align: center;
+  margin-bottom: 19px;
+}
+.way1,
+.way3 {
+  margin-right: 30px;
+}
+.way2,
+.way3 {
+  width: 770px;
+  max-width: 100%;
+  padding: 20px 36px 10px;
+  text-align: start;
+}
+.way4 {
+  padding-left: 30px;
+  text-align: start;
+}
+.section-when-to-pay__frame {
+  display: flex;
+  width: 863.76px;
+  height: 51px;
+  margin-bottom: 120px;
+  margin-left: 300px;
+}
+.section-when-to-pay__img {
+  margin-right: 74px;
+}
+
+.section-credit__h2 {
+  margin-bottom: 34px;
+}
+.section-credit__text {
+  width: 770px;
+  max-width: 100%;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 140%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #353A5A;
+  margin-bottom: 57px;
+}
+.about-credit {
+  display: flex;
+}
+.about-credit__text,
+.credit-info__text {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 120%;
+  text-align: center;
+  color: #353A5A;
+}
+.credit-info__text {
+  width: 285px;
+  padding-left: 50px;
+}
+.year {
+  width: 270px;
+  margin-right: 73px;
+}
+.loan-rate {
+  width: 285px;
+  margin-right: 73px;
+}
+.credit-info {
+  width: 345px;
+}
+
+.h2-blue {
+  font-weight: 500;
+  font-size: 58px;
+  line-height: 100%;
+  text-align: center;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #1740C7;
+  margin-bottom: 15px;
+}
+
+.catalog {
+  padding: 120px 0 130px;
+}
+.catalog__h2 {
+  margin-bottom: 50px;
+}
+.catalog__item{
+  list-style: none;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #1740C7;
+  margin-bottom: 21px;
+}
+.num{
+  display: inline-block;
+  width: 70px;
+  height: 39px;
+  border: 1px solid #1740C7;
+  border-radius: 0px 15px;
+  text-align: center;
+  vertical-align: middle;
+  margin-right: 25px;
+  padding: 10px;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 124%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #1740C7;
+}
+.footer {
+  width: 100%;
+  max-width: 100%;
+  height: 345px;
+  padding-top: 70px;
+  margin-bottom: 60px;
+}
+.wrap-footer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 15px;
+}
+.logotype {
+  width: 333px;
+  margin-right: 37px;
+}
+.logo {
+  margin-bottom: 22px;
+}
+.logotype__text {
+  margin-bottom: 16px;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 130%;
+  color: #353A5A;
+}
+.social-icon {
+  margin-right: 25px;
+}
+.social-icon:last-child {
+  margin-right: 0;
+}
+.nav-learning {
+  width: 134px;
+  margin-right: 66px;
+}
+.nav-about {
+  width: 101px;
+  margin-right: 99px;
+}
+.nav-contacts {
+  width: 126px;
+  margin-right: 74px;
+}
+.wrap-address {
+  width: 200px;
+}
+.address__text,
+.address{
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  color: #353A5A;
+  margin-bottom: 16px;
+}
+.address {
+  font-weight: 400;
+  margin-bottom: 0;
+  line-height: 130%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+}
+.nav-footer-link {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;  
+  color: #353A5A;
+  list-style-type: none;
+  margin-bottom: 20px;
+}
+.hr {
+  width: 1440px;
+  max-width: 100%;
+  height: 0px;
+  opacity: 0.1;
+  border: 1px solid #353A5A;
+}
+.diplomdist {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+}
+.diplomdist__text,
+.wrap-public-offer__text {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 100%;
+  font-feature-settings: 'pnum' on, 'lnum' on;
+  color: #353A5A;
+}
+.wrap-public-offer {
+  display: flex;
+  justify-content: space-between;
+}
+.wrap-public-offer__text:first-child {
+  margin-right: 30px;
+}
+
+@media(max-width: 1170px) {
+  .container,
+  .commission-container {
+    width: 100%;
+    max-width: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+  }
+  .section-when-to-pay__frame {
+    margin: 0 auto 120px;
+    max-width: 100%;
+  }
+}
+@media(max-width: 1024px) {
+  .wrap-header {
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+  }
+  .nav {
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 15px;
+    margin-right: 0;
+  }
+  .nav-list {
+    margin-right: 0;
+    max-width: 100%;
+  }
+  .contacts {
+    margin-right: 20px;
+  }
+  .how-to-proceed {
+    padding-top: 52px;
+  }
+  .section-instruction {
+    height: auto;
+  }
+  .wrap-comission {
+    height: auto;
+  }
+  .catalog {
+    padding-bottom: 10px
+  }
+  .logotype,
+  .nav-learning,
+  .nav-footer-link,
+  .nav-about,
+  .nav-contacts {
+    margin-right: 0;
+  }
+}
+@media(max-width: 769px) {
+  .header-burger {
+    width: 35px;
+    height: 32px;
+    position: relative;
+    margin-right: 4px;
+  }
+  .header-burger:hover {
+      transition-duration: 1s;
+      cursor: pointer;
+  }
+  .burger-line {
+      margin: o auto;
+      width: 26.25px;
+      height: 2.67px;
+      background: #353A5A;
+      position: absolute;
+  }
+  .line-first {
+      top: 25%;
+  }
+  .line-third {
+      bottom: 25%;
+  }
+  .line-second {
+      top: 45.83%;
+      bottom: 45.83%;
+  }    
+  .window-close {
+      width: 30px;
+      height: 30px;
+      position: absolute;
+      top: 8px;
+      left: 8px;
+  }
+  .close-line {
+      width: 15px;
+      height: 1px;
+      display: block;
+      margin: 7.54px auto 0;
+      background: #353A5A;
+      position: absolute;
+      left: 24.83%;
+      right: 25.17%;
+      top: 25.14%;
+      bottom: 24.86%;
+      background: rgba(255, 255, 255, 0.7);
+  }
+  .line1 {
+      transform: rotate(45deg);
+  }
+  .line2 {
+      transform: rotate(-45deg);
+  }
+  .nav {
+      display: block;
+      position: fixed;
+      top: 0;
+      right: -100%;
+      z-index: 2000;
+      width: 200px;
+      height: 300px;
+      background: #1740C7;
+      box-shadow: 0px 4px 3px rgba(13, 96, 111, 0.25);
+      border-radius: 10px;
+      transition-duration: 1s;        
+  }
+  .nav-active {
+      right: 0;
+      transition-duration: 1s;
+      box-shadow: 0 0 9999px 1000px rgb(0 0 0 / 40%);;
+  }
+  .nav-list {
+      padding: 44px 15px 30px 44px;
+      margin: 0 auto;
+      flex-direction: column;
+      align-items: center;
+      justify-content: start;
+  }
+  .nav-link {
+    color: #FDFDFD;
+    margin-bottom: 10px;
+  }
+  .nav-link__active {
+    color: #FA9F42;
+  }
+
+  .how-to-proceed,
+  .catalog,
+  .footer {
+    padding-top: 40px;
+  }
+  .h2,
+  .spo__h2, 
+  .for-higher__h2,
+  .h2-blue {
+    font-size: 32px;
+    margin-bottom: 40px;
+  }
+  .how-to-proceed__frame,
+  .wrap-admission,
+  .frame {
+    margin-bottom: 40px;
+  }
+  .frame-img {
+    margin-right: 5%;
+  }
+  .section-instruction {
+    padding: 40px 0;
+  }
+  .section-distance-learning,
+  .section-when-to-pay {
+    padding: 40px 0 0;
+  }
+  .wrap-frames1 {
+    width: 45%;
+  }
+  .wrap-frames2 {
+    width: 54%;
+  }
+  .num-frame,
+  .section-when-to-pay__text,
+  .section-when-to-pay__frame,
+  .section-credit__text,
+  .footer {
+    margin-bottom: 20px;
+  }
+  .wrap-comission {
+    padding-top: 25px;
+  }
+  .section-when-to-pay__frame {
+    height: auto;
+  }
+  .year,
+  .loan-rate {
+    margin-right: 0;
+    max-width: 100%;
+  }
+  .catalog__item {
+    font-size: 21px;
+  }
+}
+@media(max-width: 640px) {
+  .wrap-header {
+    justify-content: space-between;
+  }
+  .how-to-proceed,
+  .catalog {
+    padding-top: 30px;
+  }
+  .h2,
+  .spo__h2, 
+  .for-higher__h2, 
+  .h2-blue {
+    font-size: 28px;
+    margin-bottom: 20px;
+  }
+  .how-to-proceed__text,
+  .spo__text, 
+  .for-higher__text,
+  .frame-text,
+  .materials__info,
+  .commission-text,
+  .section-when-to-pay__text,
+  .ways-text,
+  .section-credit__text {
+    font-size: 16px;
+  }
+  .how-to-proceed__frame, 
+  .wrap-admission, 
+  .frame {
+    margin-bottom: 20px;
+  }
+  .section-instruction {
+    padding: 20px 0;
+  }
+  .step {
+    padding: 20px;
+  }
+  .step-name {
+    margin-bottom: 15px;
+  }
+  .step-h3,
+  .materials__h3 {
+    font-size: 21px;
+  }
+  .section-distance-learning, 
+  .section-when-to-pay {
+    padding: 20px 0 0;
+  }
+  .num-frame, 
+  .section-when-to-pay__text, 
+  .section-when-to-pay__frame, 
+  .section-credit__text, 
+  .footer,
+  .commission-text,
+  .wrap-ways2 {
+    margin-bottom: 10px;
+  }
+  .way {
+    padding: 10px;
+  }
+  .way1,
+  .way3 {
+    margin-right: 10px;
+  }
+  .h2-blue,
+  .nav-footer-link {
+    margin-bottom: 10px;
+  }
+  .about-credit__text,
+  .nav-footer-link,
+  .address__text, 
+  .address {
+    font-size: 14px;
+  }
+  .catalog__item {
+    font-size: 18px;
+  }
+  .num {
+    margin-right: 15px;
+    width: 60px;
+  }
+  .footer {
+    padding-top: 0;
+    height: auto;
+  }
+  .wrap-footer {
+    flex-wrap: wrap;
+    margin-bottom: 5px;
+  }
+  .logotype {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  .logo {
+    margin-bottom: 0;
+  }
+  .logotype__text {
+    display: inline;
+  }
+  .diplomdist {
+    padding-top: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .diplomdist__text, 
+  .wrap-public-offer__text {
+    font-size: 12px;
+  }
+}
+@media(max-width: 540px) {
+  .btn {
+    width: 40%;
+  }
+  .h2,
+  .spo__h2, 
+  .for-higher__h2, 
+  .h2-blue {
+    font-size: 26px;
+    margin-bottom: 15px;
+  }
+  .how-to-proceed__text,
+  .spo__text, 
+  .for-higher__text,
+  .frame-text,
+  .materials__info,
+  .commission-text,
+  .section-when-to-pay__text,
+  .ways-text,
+  .section-credit__text {
+    font-size: 14px;
+  }
+  .spo {
+    margin-right: 10px;
+  }
+  .wrap-address {
+    width: 100%;
+    text-align: center;
+  }
+  .about-credit {
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .year {
+    width: 30%;
+  }
+  .section-commission__wrap {
+    width: 100%;
+  }
+  .materials__h3 {
+    font-size: 18px;
+  }
+}
