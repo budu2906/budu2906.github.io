@@ -409,6 +409,11 @@ position: fixed;
     padding-bottom: 2rem;
     max-width: 60ch;
 }
+
+.remote-center-description h2{
+    font-size: 40px;
+}
+
 .remote-center a{
     display: flex;
     justify-content: center;
@@ -467,6 +472,10 @@ position: fixed;
 .faq{
 
     display: flex;
+}
+
+.faq h2{
+    font-size: 40px;
 }
 
 .faq-wrapper{
@@ -567,6 +576,9 @@ position: fixed;
 
 
 @media screen and (min-width:576px){
+
+ 
+
     .container{
         max-width: 540px;
     }
@@ -592,7 +604,6 @@ position: fixed;
         max-width: 1320px;
     }
 }
-
 @media screen and (max-width:576px){
     .header-call{
         max-width: 7rem;
@@ -605,7 +616,21 @@ position: fixed;
         flex-direction: column;
         align-items: center;
     }
+
+    h2{
+        font-size: 24px !important;
+    }
+
+    h3{
+        font-size: 14px;
+
+    }
+ .traectory-bot div div{
+    padding: 3rem 1rem;
+    
+ }
 }
+
 
 @media screen and (max-width: 1200px){
 .nav ul{
@@ -768,3 +793,4 @@ position: fixed;
 
     
 }
+
