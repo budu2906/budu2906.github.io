@@ -593,6 +593,9 @@ h1{
     font-size: 25px;
     cursor: pointer;
     padding: .5rem 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
