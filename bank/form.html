@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./styles/form.css">
+</head>
+<body>
+    <nav class="nav">
+        <div class="container">
+            <h2><a href="./index.html">Трейд инвест</a></h2>
+            <ul type="none">
+                <li><a href="./index.html">Главная</a></li>
+                <li><a href="./index.html">Преимущества</a></li>
+                <li><a href="./index.html">Виды кредита</a></li>
+                <li><a href="./index.html">Ответы</a></li>
+                <li><a href="./index.html">Отзывы</a></li>
+            </ul>
+            <a href="#">Отправить заявку</a>
+            <div id="burger">
+                <span></span><span></span><span></span>
+            </div>
+        </div>
+
+        <ul id="nav-responsive" type="none">
+            <div id="close-burger">
+                <span></span><span></span>
+            </div>
+            <li><a href="./index.html">Главная</a></li>
+            <li><a href="./index.html">Преимущества</a></li>
+            <li><a href="./index.html">Виды кредита</a></li>
+            <li><a href="./index.html">Ответы</a></li>
+            <li><a href="./index.html">Отзывы</a></li>
+            
+    
+    
+        </ul>
+
+
+    </nav>
+    <div class="header-content ">
+        <div class="container">
+            <div class="header-left">
+                <h1>Кредит для <br> исполнения <br> вашей мечты</h1>
+                <h4>Получите самое выгодное условия по потребительскому кредиту, авто кредиту, ипотечному кредитованию, рефинансированию кредита в течении 30 минут
+                </h4>
+                <p><b> Мы сотрудничем с</b></p>
+                <div class="partners partners-normal">
+                    <span><img src="./img/svgviewer-output.svg" alt=""></span>
+                    <span><img src="./img/alfabank.png" alt=""></span>
+                    <span><img src="./img/sovcombank.png" alt=""></span>
+                </div>
+            </div>
+            <div class="header-right">
+                <h2>Заполни форму для получения кредита</h2>
+                <form id="form" action="">
+                        <div class="form-top-side">
+
+                            <label>Ваше имя</label>
+                            <input placeholder="Иван" required type="text">                
+                            
+                            <label  for="">Ваш номер телефона</label>
+                            <input name="tel_number" id="tel-number"  placeholder="+7(999)999-99-99" required type="tel" >
+                    
+                        </div>
+
+                    <div>
+                        <label for="types">Тип кредитования</label>
+                        <select id="types" name="cars">
+                            <option value="potrebitelsky-credit">Потребительский кредит</option>
+                            <option value="auto-credit">Авто кредит</option>
+                            <option value="ipothec-credit">Ипотечное кредитование</option>
+                            <option value="refinance-credit">Рефинансирование кредита</option>
+                            <option value="another">Другое</option>
+                          </select>
+                        </div>
+                      <div>
+                        <label for="">Сумма займа</label>
+                        <span>
+                            <input value="2000" required id="sum" type="number">
+                            <label for="sum">Руб.</label>
+                        </span>
+                      </div>
+                      <div>
+                        <label for="">Срок займа (мес.)</label>
+                        <span>
+                            <input id="term" value="24" type="number">
+                            <label for="term">мес.</label>
+                        </span>
+                      </div>
+                      <div>
+                        <p>Ежемесячный платеж</p>
+                        <h3>9 284 Руб.</h3>
+                        <input id="form-submit" value="Забрать деньги" type="submit">
+                      </div>
+                      
+                      
+
+                </form>
+            </div>
+            <div    class="partners-responsive partners">
+                <span><img src="./img/svgviewer-output.svg" alt=""></span>
+                <span><img src="./img/alfabank.png" alt=""></span>
+                <span><img src="./img/sovcombank.png" alt=""></span>
+            </div>
+        </div>
+    </div>
+    
+
+</header>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content container">
+            <p>
+                Центр кредитования Трейд-Инвест оказывает помощь в получении кредита наличными, ипотеки, кредита под залог на самых выгодных условиях ДЛЯ ВАС. Данный сайт носит исключительно информационный характер, размещенные на сайте материалы не являются публичной офертой, определяемой положениями Статей 435 и 437 Гражданского кодекса РФ.
+            </p>
+            <div>
+                <div class="footer-items">
+    
+                    <h3><a href="">Трейд Инвест</a></h3>   
+                    <a href="">Отправить заявку</a>
+                </div>
+                    <p>Если вы ищите лучший сервис</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+<script src="./js/form.js"></script>
+</body>
+</html>
