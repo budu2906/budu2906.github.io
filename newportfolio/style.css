@@ -223,6 +223,7 @@ h1 i {
 }
 .projects h3{
     text-transform: uppercase;
+        text-align: center;
 }
 .projects ul{
     padding: 1rem 0;
