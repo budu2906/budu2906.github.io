@@ -1,0 +1,33 @@
+main{
+    background-image: url(../assets/vacancy-bg.png);
+    background-repeat: no-repeat;
+    padding-top: 9rem;
+}
+
+.button{
+    background-color: #67B438;
+    border: #67B438;
+    color:white;
+}
+
+.vacancy-form>div{
+    display: flex;
+    gap: 1rem;
+}
+
+.vacancy-form input{
+    padding: 0.5rem;
+    border: 1px solid #BCCBDA;
+    background-color: #E0EAF4;
+}
+.vacancy-form>button{
+    margin-top: 1rem;
+}
+
+.section-hr{
+    margin: 0 !important;
+}
+
+p{
+    max-width: 80ch;
+}

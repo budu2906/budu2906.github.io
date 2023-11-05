@@ -1,0 +1,21 @@
+main{
+    background-image: url(../assets/contacts-bg.png);
+    padding-top: 9rem;
+}
+
+.section-hr{
+    margin: 0;
+}
+
+.content>div p:nth-child(1){
+    font-weight: bold;
+}
+p{
+    max-width: 65ch;
+}
+
+h6{
+    font-size: 12px;
+    margin-top: 0.5rem;
+}
+

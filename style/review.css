@@ -1,0 +1,55 @@
+main{
+    background-image: url(../assets/vacancy-bg.png);
+    background-repeat: no-repeat;
+    padding-top: 9rem;
+}
+
+.button{
+    background-color: #67B438;
+    border: #67B438;
+    color:white;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+.vacancy-form>div{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+textarea{
+    padding: .5rem;
+}
+
+.vacancy-form input{
+    padding: 0.5rem;
+    border: 1px solid #BCCBDA;
+    background-color: #E0EAF4;
+}
+.vacancy-form>button{
+    margin-top: 1rem;
+}
+
+.section-hr{
+    margin: 0;
+}
+
+p{
+    max-width: 80ch;
+}
+
+.review{
+    display: flex;
+    gap: 3.5rem;
+}
+
+.stars{
+    display: flex;
+    gap: 1rem;
+}
+
+#review{
+    display: block;
+}

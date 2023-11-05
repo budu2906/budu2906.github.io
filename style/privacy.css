@@ -1,0 +1,43 @@
+.privacy{
+    background-image: url(../assets/contacts-bg.png);
+    background-repeat: no-repeat;
+    padding-top: 9rem;
+}
+
+.support{
+    background-image: url(../assets/support-bg.png);
+    padding-top: 9rem;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    display: flex;
+    align-items:center;
+}
+
+p{
+    max-width: 80ch;
+}
+
+.section-hr{
+    margin: 0;
+}
+
+.hr{
+    max-width: 120px;
+}
+
+.links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    margin: 0 auto;
+
+}
+
+.links a{
+    color: #336784;
+    font-size: 52px;
+    border-bottom: 1px solid #336784;
+}
+
+

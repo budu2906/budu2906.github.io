@@ -1,0 +1,15 @@
+main{
+    padding-top: 9rem;
+    background-image: url(../assets/404-bg.png);
+    background-repeat: no-repeat;
+}
+
+.content{
+    display: flex;
+   align-items: center;
+    justify-content: space-between;
+}
+
+.section-hr{
+    margin: 0;
+}
